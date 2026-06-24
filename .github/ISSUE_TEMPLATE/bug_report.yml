@@ -1,0 +1,8 @@
+name: Bug report
+description: x
+labels: [bug]
+body:
+  - type: textarea
+    id: w
+    attributes: { label: What happened? }
+    validations: { required: true }
