@@ -57,7 +57,7 @@ func (d *driver) Provision(ctx context.Context, spec deploy.Spec) (*deploy.Resul
 		plan = v
 	}
 	// OsID 1743 = Ubuntu 22.04 LTS x64
-	inst, _, err := d.c.Instance.Create(ctx, &govultr.InstanceReq{
+	inst, _, err := d.c.Instance.Create(ctx, &govultr.InstanceCreateReq{
 		Region:   region,
 		Plan:     plan,
 		OsID:     1743,
