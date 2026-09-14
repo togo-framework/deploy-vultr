@@ -1,5 +1,5 @@
 <!-- togo-header -->
-<div align="center"><img src=".github/assets/togo-mark.svg" alt="togo" height="64" /><h1>togo-framework/deploy-vultr</h1><p><strong>Part of <a href="https://to-go.dev">togo</a>.</strong></p></div>
+<div align="center"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/togo-mark-dark.svg" /><img src=".github/assets/togo-mark.svg" alt="ToGO" height="64" /></picture><h1>togo-framework/deploy-vultr</h1><p><strong>Part of <a href="https://to-go.dev">togo</a>.</strong></p></div>
 
 ## Install
 ```bash
